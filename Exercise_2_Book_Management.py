@@ -3,7 +3,7 @@ import sys
 
 # Connect MySQL
 try:
-    cnx = mysql.connector.connect(user='admin', password='a1234567',
+    cnx = mysql.connector.connect(user='admin', password='********',
         host='database-1.c8tsrocn0rc8.eu-west-2.rds.amazonaws.com', port = 3306)
     cursor = cnx.cursor()
     print("Connected.")
